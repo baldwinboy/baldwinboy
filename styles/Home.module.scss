@@ -41,7 +41,6 @@
 .grid {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: space-evenly;
   width: 100%;
   max-width: 1000px;
@@ -114,10 +113,19 @@
   position: relative;
   height: auto;
   margin: 4rem 3rem 0;
-  padding: 1rem;
   background: $tertiary-color;
   opacity: 100%;
   transition: height 1s ease, opacity 2s ease;
+  &, &_closed {
+    padding: 1rem;
+    background: $tertiary-color;
+  }
+  &_closed {
+    margin: 0 3rem;
+    color: transparent;
+    opacity: 0;
+    transition: height 1.5s ease, opacity 1s ease;
+  }
   &:before {
     content: ' ';
     position: absolute;
@@ -130,11 +138,6 @@
   }
 }
 
-.planet_caption_closed {
-  height: 0;
-  opacity: 0;
-  transition: height 1s ease, opacity 2s ease;
-}
 
 @media (max-width: 600px) {
   .grid {

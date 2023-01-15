@@ -28,7 +28,6 @@ export default function Home() {
         
         <p className={styles.description}>
           <u><a href="/cv.pdf" download target="_blank">Here's my outdated CV.</a></u>
-          {' '}If you truly want to assess my skills, you're better off looking through this site.
         </p>
         
         <div className={styles.planet_image}>
