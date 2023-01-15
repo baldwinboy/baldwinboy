@@ -1,0 +1,9 @@
+{
+  "name": "One More Developer's Portolio",
+  "short_name": "Portfolio",
+  "theme_color": "#32365b",
+  "background_color": "#d74d43",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}

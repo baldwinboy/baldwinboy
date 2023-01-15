@@ -1,0 +1,11 @@
+$primary-color: #32365b;
+$secondary-color: #d74d43;
+$tertiary-color: #733594;
+$text-color: #f8f1fa;
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  tertiaryColor: $tertiary-color;
+  textColor: $text-color;
+}
