@@ -20,7 +20,8 @@ export default function Home() {
         <link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico"/>
       </Head>
 
-      <main>
+      <main className={styles.main}>
+        {/* 
         <h1 className={styles.title}>
           One More <a href="https://github.com/akpekig" target="_blank" rel="noreferrer nofollow">Developer's</a> Portfolio
         </h1>
@@ -82,10 +83,10 @@ export default function Home() {
               See what I enjoy
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
-      <footer>
+      {/* <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -94,7 +95,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
