@@ -21,20 +21,33 @@
   background: $secondary-color;
 }
 
+.pattern {
+  mix-blend-mode: luminosity;
+  animation: display 1s ease-in;
+}
+
 .title {
+  width: 12ch;
   margin: 0 0 1rem;
   line-height: 1.15;
+  font-family: $base-heading-font;
   font-size: 3.6rem;
-  a {
-    text-decoration: underline;
+  text-align: center;
+  span {
+    display: block;
+    letter-spacing: 4px;
+    &:nth-child(1) {
+      font-size: 4.25rem;
+    }
+    &:nth-child(2) {
+      font-size: 3.5rem;
+    }
+    &:nth-child(3) {
+      font-size: 4.5rem;
+    }
   }
 }
 
-.title {
-  text-align: center;
-}
-
-.title,
 .description {
   text-align: center;
 }
@@ -146,6 +159,14 @@
   }
 }
 
+@keyframes display {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @media (max-width: 600px) {
   .grid {
