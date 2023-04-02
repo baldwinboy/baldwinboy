@@ -1,4 +1,4 @@
-@import 'variables.module';
+@import "variables.module";
 
 .hidden {
   display: none !important;
@@ -52,7 +52,6 @@
   text-align: center;
 }
 
-
 .description {
   margin-top: 3rem;
   line-height: 1.5;
@@ -85,7 +84,6 @@
   &:disabled {
     cursor: not-allowed;
     color: grey;
-    
   }
   &:not(:disabled) {
     &:hover,
@@ -137,7 +135,8 @@
   background: $tertiary-color;
   opacity: 100%;
   transition: height 1s ease, opacity 2s ease;
-  &, &_closed {
+  &,
+  &_closed {
     padding: 1rem;
     background: $tertiary-color;
   }
@@ -148,11 +147,15 @@
     transition: height 1.5s ease, opacity 1s ease;
   }
   &:before {
-    content: ' ';
+    content: " ";
     position: absolute;
     top: -3rem;
     left: 50%;
-    background: linear-gradient(to bottom, transparent 33%, $tertiary-color 80%);
+    background: linear-gradient(
+      to bottom,
+      transparent 33%,
+      $tertiary-color 80%
+    );
     padding: 1rem;
     border-radius: 100%;
     transform: translateX(-50%);
