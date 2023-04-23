@@ -22,6 +22,7 @@ module.exports = {
       options: {
         alias: {
           '@root': path.resolve(__dirname),
+          '@components': path.resolve(__dirname, 'src/components'),
         },
         extensions: ['js'],
       },
