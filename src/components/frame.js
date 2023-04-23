@@ -33,8 +33,8 @@ const Navbar = () => {
       url: '/projects',
     },
     {
-      text: 'Contact',
-      url: '/contact',
+      text: 'Linkedin',
+      url: 'https://www.linkedin.com/in/cae-su-ra/',
     },
   ];
   const currentPageClass = (page) => {
