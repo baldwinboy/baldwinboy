@@ -21,8 +21,8 @@ const Navbar = () => {
       url: '/portfolio',
     },
     {
-      text: 'Likes and values',
-      url: '/likes-values',
+      text: 'Values',
+      url: '/values',
     },
     {
       text: 'Favourite media',
@@ -196,14 +196,14 @@ const Frame = (props) => {
     detectRetina: true,
   };
   return (
-    <div className="relative w-screen h-screen bg-gradient-to-b from-blush to-blossom">
+    <div className="relative w-screen min-h-screen h-100 bg-gradient-to-b from-blush to-blossom bg-[length:400%_400%] pb-96 overflow-auto">
       <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={particlesOpts}
       />
-      <div className="relative grid sm:grid-cols-3 px-12 z-10">
+      <div className="relative grid sm:grid-cols-3 px-12">
         <header className="col-span-full -rotate-3 -skew-y-3 sm:scale-[2] my-32 mx-auto">
           <a href="/" className="font-bold select-none cursor-pointer">
             <h1 className="text-stroke-gold font-heading text-[2rem]/[0.675]">
