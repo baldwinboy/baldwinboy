@@ -7,6 +7,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -22,6 +25,7 @@
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-postcss": "^6.9.0",
     "gatsby-plugin-sitemap": "^6.9.0",
+    "nuka-carousel": "^6.0.2",
     "postcss": "^8.4.23",
     "prettier-init": "^1.3.0",
     "react": "^18.2.0",
@@ -33,8 +37,5 @@
   },
   "resolutions": {
     "sharp": "0.31.1"
-  },
-  "dependencies": {
-    "nuka-carousel": "^6.0.2"
   }
 }
