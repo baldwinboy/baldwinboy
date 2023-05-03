@@ -38,7 +38,8 @@ const Navbar = () => {
     },
   ];
   const currentPageClass = (page) => {
-    return page === window.location.href
+    const isBrowser = typeof window !== `undefined`;
+    return isBrowser && page === window.location.href
       ? 'text-gold'
       : 'hover:text-gold focus-visible:text-gold';
   };
@@ -81,6 +82,7 @@ const Navbar = () => {
 
 const PlanetFooter = () => {
   React.useEffect(() => {
+    const isBrowser = typeof window !== `undefined`;
     const planetEl = document.querySelector('#planet');
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
@@ -127,11 +129,12 @@ const PlanetFooter = () => {
 
     animate();
 
-    window.addEventListener('resize', () => {
-      camera.aspect = planetEl.offsetWidth / planetEl.offsetHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(planetEl.offsetWidth, planetEl.offsetHeight);
-    });
+    isBrowser &&
+      window.addEventListener('resize', () => {
+        camera.aspect = planetEl.offsetWidth / planetEl.offsetHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(planetEl.offsetWidth, planetEl.offsetHeight);
+      });
   }, []);
 
   return (
