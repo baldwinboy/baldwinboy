@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Frame from '@components/frame';
 
-const ValueArticle = ({ title, desc, index }) => {
+const ValueArticle = ({ item, index }) => {
   const [display, setDisplay] = React.useState(false);
   return (
     <article
@@ -16,7 +16,7 @@ const ValueArticle = ({ title, desc, index }) => {
       onMouseLeave={() => setDisplay(false)}
     >
       <h3 id={`valueTitle${index}`} className="text-2xl" tabIndex={0}>
-        {title}
+        {item.title}
       </h3>
       <p
         id={`valueDesc${index}`}
@@ -26,7 +26,7 @@ const ValueArticle = ({ title, desc, index }) => {
             : 'hidden'
         }
       >
-        {desc}
+        {item.desc}
       </p>
     </article>
   );
@@ -89,7 +89,7 @@ const Values = () => {
       </h2>
       <section className="h-100">
         {items.map((item, index) => (
-          <ValueArticle title={item.title} desc={item.desc} index={index} />
+          <ValueArticle item={item} index={index} />
         ))}
       </section>
     </Frame>

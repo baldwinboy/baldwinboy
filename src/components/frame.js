@@ -28,10 +28,10 @@ const Navbar = () => {
       text: 'Favourite media',
       url: '/faves',
     },
-    {
-      text: 'Personal projects',
-      url: '/projects',
-    },
+    // {
+    //   text: 'Personal projects',
+    //   url: '/projects',
+    // },
     {
       text: 'Linkedin',
       url: 'https://www.linkedin.com/in/cae-su-ra/',
@@ -135,7 +135,7 @@ const PlanetFooter = () => {
   }, []);
 
   return (
-    <div className="fixed top-[66%] left-1/2 col-span-full w-screen h-96 mt-auto transform -translate-x-1/2 overflow-hidden z-0">
+    <div className="fixed top-[66%] left-1/2 col-span-full w-screen h-96 mt-auto transform -translate-x-1/2 overflow-hidden z-10">
       <div
         id="planet"
         className="h-[32rem]"

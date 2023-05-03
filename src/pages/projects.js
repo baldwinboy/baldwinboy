@@ -10,7 +10,12 @@ const PersonalProjects = () => {
       >
         Personal projects
       </h2>
-      <p></p>
+      <p>
+        Coming soon!{' '}
+        <small>
+          In the meantime, I think this site serves as an example of my skill...
+        </small>
+      </p>
     </Frame>
   );
 };
