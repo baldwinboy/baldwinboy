@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/parser": "^7.21.4",
     "autoprefixer": "^10.4.14",
+    "framer-motion": "^10.12.17",
     "gatsby": "^5.9.0",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-manifest": "^5.9.0",
