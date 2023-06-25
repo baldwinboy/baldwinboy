@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     colors: {
+      ink: {
+        100: '#080510',
+        200: '#10215C'
+      },
       gold: '#d48430',
       blush: '#fdedf0',
       blossom: '#f9c8d1',

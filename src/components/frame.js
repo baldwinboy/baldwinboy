@@ -167,7 +167,7 @@ const Frame = (props) => {
       },
     },
     particles: {
-      color: { value: tailwindStyles.theme.colors.plum },
+      color: { value: tailwindStyles.theme.colors.blush },
       links: {
         enable: false,
       },
@@ -199,7 +199,7 @@ const Frame = (props) => {
     detectRetina: true,
   };
   return (
-    <div className="relative w-screen min-h-screen h-100 bg-gradient-to-b from-blush to-blossom bg-[length:400%_400%] pb-96 overflow-auto">
+    <div className="relative w-screen min-h-screen h-100 bg-gradient-to-b from-ink-100 to-ink-200 bg-[length:400%_400%] pb-96 overflow-auto">
       <Particles
         id="tsparticles"
         init={particlesInit}
