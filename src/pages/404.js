@@ -10,5 +10,3 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
-
-export const Head = () => <title>Page not found - WDGA</title>;

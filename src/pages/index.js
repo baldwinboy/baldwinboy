@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Frame from '@components/frame';
+import Seo from '@components/seo';
 
 const IndexPage = () => {
   return (
@@ -15,4 +16,9 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>WDGA</title>;
+export const Head = () => (
+  <>
+    <Seo />
+    <html lang="en" />
+  </>
+)

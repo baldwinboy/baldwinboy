@@ -6,7 +6,10 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: `Web Developer Gillian A`,
-    siteUrl: `https://www.yourdomain.tld`,
+    description: "Professional web developer specialised in front-end and full-stack frameworks and accessibility.",
+    author: "Gillian Akpeki",
+    siteUrl: `https://wdga.xyz/`,
+    image: '/site-image.png',
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -14,7 +17,15 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
+        name: `Web Developer Gillian A`,
+        short_name: `Gillian A`,
+        description: `Professional web developer specialised in front-end and full-stack frameworks and accessibility.`,
+        lang: `en`,
         icon: 'src/images/icon.png',
+        start_url: `/`,
+        background_color: `#080510`,
+        theme_color: `#d48430`,
+        display: `minimal-ui`,
       },
     },
     {
