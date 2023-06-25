@@ -222,9 +222,7 @@ const Frame = (props) => {
         <main className="col-span-full sm:col-start-1 sm:col-end-3 md:col-start-2 text-plum font-body text-xl">
           {props.children}
         </main>
-        <Navbar />
       </div>
-      <PlanetFooter />
     </div>
   );
 };
