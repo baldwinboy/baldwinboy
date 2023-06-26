@@ -63,26 +63,25 @@ const Frame = (props) => {
         loaded={particlesLoaded}
         options={particlesOpts}
       />
-      <div className="relative flex px-12">
-        <motion.header 
-          initial={{ y: '350%' }}
-          animate={{ y: '100%' }}
-          transition={{ ease: [0, 0.71, 0.37, 1], duration: 0.5 }}
-          className="col-span-full mx-auto font-bold select-none"
-        >
-            <h1 className="text-stroke-gold font-heading leading-6 heading">
-              Web
-              <br />
-              Developer
-            </h1>
-            <h2 className="mt-5 text-gold font-subheading text-right heading">
-              Gillian A
-            </h2>
-        </motion.header>
-        <main className="col-span-full sm:col-start-1 sm:col-end-3 md:col-start-2 text-plum font-body text-xl">
+      <motion.div
+        initial={{ y: '100%' }}
+        animate={{ y: 100 }}
+        transition={{ ease: [0, 0.71, 0.37, 1], duration: 0.5 }} className="relative flex flex-col items-center w-full h-full px-12"
+      >
+        <header className="mx-auto font-bold select-none">
+          <h1 className="text-stroke-gold font-heading leading-6 heading">
+            Web
+            <br />
+            Developer
+          </h1>
+          <h2 className="mt-5 text-gold font-subheading text-right heading">
+            Gillian A
+          </h2>
+        </header>
+        <main className="text-gold font-subheading text-4xl/loose font-bold">
           {props.children}
         </main>
-      </div>
+      </motion.div>
     </div>
   );
 };
