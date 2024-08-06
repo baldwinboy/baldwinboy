@@ -5,8 +5,8 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `Web Developer Gillian A`,
-    description: "Professional web developer specialised in front-end and full-stack frameworks and accessibility.",
+    title: `Work Dog Gillian A`,
+    description: "Professional software engineer with polyglot expertise.",
     author: "Gillian Akpeki",
     siteUrl: `https://wdga.xyz/`,
     image: '/site-image.png',
@@ -17,9 +17,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Web Developer Gillian A`,
+        name: `Work Dog Gillian A`,
         short_name: `Gillian A`,
-        description: `Professional web developer specialised in front-end and full-stack frameworks and accessibility.`,
+        description: `Professional software engineer with polyglot expertise.`,
         lang: `en`,
         icon: 'src/images/icon.png',
         start_url: `/`,
