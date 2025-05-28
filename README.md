@@ -1,6 +1,6 @@
 ![Gillian Akpeki, creative software engineer with industry experience](header.gif)
 
-# Professional software engineer with polyglot expertise
+# Professional software engineer and artist with polyglot expertise
 
 ## Say hello 🌊
 
