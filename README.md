@@ -1,14 +1,15 @@
-![Gillian Akpeki, creative software engineer with industry experience](header.gif)
 
-# Professional software engineer with polyglot expertise
+https://github.com/user-attachments/assets/e0d4e3e3-6069-492c-b714-2690735a02c8
+
+# Professional software engineer and multidisciplinary artist with polyglot expertise
 
 ## Say hello 🌊
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/cae-su-ra) [![Contra](https://custom-icon-badges.demolab.com/badge/Contra-000?logo=contra&logoColor=000&style=for-the-badge)](https://contra.com/akpeki_gi) [![Cord](https://custom-icon-badges.demolab.com/badge/Cord-55a4e6?logo=cord&logoColor=fff&style=for-the-badge)](https://cord.co/candidate/account/u/candidate/216773)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/cae-su-ra) 
 
 ## See the sites 🚀
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-d48430?style=for-the-badge)](https://wdga.xyz) [![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=fff&style=for-the-badge)](https://www.frontendmentor.io/profile/akpekig) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-d48430?style=for-the-badge)](https://mha-abuse.com) [![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=fff&style=for-the-badge)](https://www.frontendmentor.io/profile/baldwinboy) 
 
 ## Skills 🛠️
 
