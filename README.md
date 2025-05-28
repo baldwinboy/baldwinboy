@@ -1,4 +1,5 @@
-![Gabriel Duraye, creative software engineer with industry experience](header.gif)
+
+https://github.com/user-attachments/assets/e0d4e3e3-6069-492c-b714-2690735a02c8
 
 # Professional software engineer and multidisciplinary artist with polyglot expertise
 
