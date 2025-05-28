@@ -1,6 +1,6 @@
-![Gillian Akpeki, creative software engineer with industry experience](header.gif)
+![Gabriel Duraye, creative software engineer with industry experience](header.gif)
 
-# Professional software engineer and artist with polyglot expertise
+# Professional software engineer and multidisciplinary artist with polyglot expertise
 
 ## Say hello 🌊
 
@@ -8,7 +8,7 @@
 
 ## See the sites 🚀
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-d48430?style=for-the-badge)](https://wdga.xyz) [![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=fff&style=for-the-badge)](https://www.frontendmentor.io/profile/akpekig) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-d48430?style=for-the-badge)](https://mha-abuse.com) [![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=fff&style=for-the-badge)](https://www.frontendmentor.io/profile/akpekig) 
 
 ## Skills 🛠️
 
