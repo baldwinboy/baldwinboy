@@ -70,12 +70,12 @@ const Frame = (props) => {
       >
         <header className="mx-auto font-bold select-none">
           <h1 className="text-stroke-gold font-heading leading-6 heading">
-            Work
+            Whim
             <br />
-            Dog
+            Developer
           </h1>
           <h2 className="mt-5 text-gold font-subheading text-right heading">
-            Gillian A
+            Gabriel the Artist
           </h2>
         </header>
         <main className="text-gold font-subheading text-4xl/loose font-bold">
