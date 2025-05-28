@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     },
     {
       description: "Github",
-      homepageUrl: "https://github.com/akpekig"
+      homepageUrl: "https://github.com/baldwinboy"
     }
   ].concat(data.github.viewer.starredRepositories.nodes)
 
