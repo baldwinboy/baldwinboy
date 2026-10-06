@@ -52,3 +52,14 @@ RCT_EXPORT_METHOD(fetchUsageData:(RCTPromiseResolveBlock)resolve
 
 @end
 ```
+
+<VPSwiper
+  :slides="[
+    '/orlie-mobile/1.svg',
+    '/orlie-mobile/2.svg',
+    '/orlie-mobile/3.svg',
+    '/orlie-mobile/4.svg',
+    '/orlie-mobile/5.svg',
+  ]"
+  :no-fullscreen="true"
+/>

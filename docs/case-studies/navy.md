@@ -58,3 +58,20 @@ jobs:
       build_id: ${{ needs.build_ios.outputs.build_id }}
       profile: ${{ github.ref_name == 'main' && 'production' || 'preview' }}
 ```
+
+<VPSwiper
+  :slides="[
+    '/navy/1.png',
+    '/navy/2.png',
+    '/navy/3.png',
+    '/navy/4.png',
+    '/navy/5.png',
+    '/navy-mobile/1.jpg',
+    '/navy-mobile/2.jpg',
+    '/navy-mobile/3.jpg',
+    '/navy-mobile/4.jpg',
+    '/navy-mobile/5.jpg',
+  ]"
+  :no-fullscreen="true"
+  :height="'382px'"
+/>

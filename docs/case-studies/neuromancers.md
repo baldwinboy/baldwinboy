@@ -44,3 +44,14 @@ def set_peersession_permissions(sender, instance, created, **kwargs):
                 for perm in seeker_perms:
                     remove_perm(perm, group, instance)
 ```
+
+<VPSwiper
+  :slides="[
+    '/neuromancers/1.png',
+    '/neuromancers/2.png',
+    '/neuromancers/3.png',
+    '/neuromancers/4.png',
+    '/neuromancers/5.png',
+  ]"
+  :no-fullscreen="true"
+/>

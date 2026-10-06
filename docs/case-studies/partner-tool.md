@@ -46,3 +46,14 @@ export const fetchAudio = async ({ text, fileName }: fetchAudioProps) => {
   }
 };
 ```
+
+<VPSwiper
+  :slides="[
+    '/partner-tool/1.png',
+    '/partner-tool/2.png',
+    '/partner-tool/3.png',
+    '/partner-tool/4.png',
+    '/partner-tool/5.png',
+  ]"
+  :no-fullscreen="true"
+/>
