@@ -1,8 +1,7 @@
-import VPSwiper from "@cssnr/vitepress-swiper";
-import "@cssnr/vitepress-swiper/style.css";
 import DefaultTheme from "vitepress/theme";
-import "./style.css";
+import VPSwiper from './components/VPSwiper.vue'
 import "./daisyui-override.css";
+import "./style.css";
 
 export default {
     ...DefaultTheme,

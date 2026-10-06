@@ -43,7 +43,6 @@
     ]
   },
   "dependencies": {
-    "@cssnr/vitepress-swiper": "^0.3.1",
     "swiper": "^14.3.0"
   }
 }

@@ -28,7 +28,6 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@cssnr/vitepress-swiper", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:0.3.1"],\
           ["@eslint/js", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:10.0.1"],\
           ["@eslint/markdown", "npm:8.0.3"],\
           ["@tailwindcss/postcss", "npm:4.3.3"],\
@@ -415,32 +414,6 @@ const RAW_RUNTIME_STATE =
           ["@cacheable/utils", "npm:2.5.0"],\
           ["hashery", "npm:1.5.1"],\
           ["keyv", "npm:5.6.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@cssnr/vitepress-swiper", [\
-      ["npm:0.3.1", {\
-        "packageLocation": "../.yarn/berry/cache/@cssnr-vitepress-swiper-npm-0.3.1-c893b9c662-10c0.zip/node_modules/@cssnr/vitepress-swiper/",\
-        "packageDependencies": [\
-          ["@cssnr/vitepress-swiper", "npm:0.3.1"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:0.3.1", {\
-        "packageLocation": "./.yarn/__virtual__/@cssnr-vitepress-swiper-virtual-6ad44b3355/2/.yarn/berry/cache/@cssnr-vitepress-swiper-npm-0.3.1-c893b9c662-10c0.zip/node_modules/@cssnr/vitepress-swiper/",\
-        "packageDependencies": [\
-          ["@cssnr/vitepress-swiper", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:0.3.1"],\
-          ["@types/swiper", null],\
-          ["@types/vue", null],\
-          ["swiper", "npm:14.3.0"],\
-          ["vue", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:3.5.43"]\
-        ],\
-        "packagePeers": [\
-          "@types/swiper",\
-          "@types/vue",\
-          "swiper",\
-          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5098,7 +5071,6 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@cssnr/vitepress-swiper", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:0.3.1"],\
           ["@eslint/js", "virtual:5260f3dccb68c1c87e6365449e2070096c29c7942797eccd28b9ae02385973ceb1e4df9762e85d423789f42910ea9e641abade14f546c77c344e832fcaaf8ce1#npm:10.0.1"],\
           ["@eslint/markdown", "npm:8.0.3"],\
           ["@tailwindcss/postcss", "npm:4.3.3"],\
